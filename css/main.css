@@ -159,6 +159,13 @@ header{
   -webkit-transition: all .5s;
   transition: all .5s;
 }
+#tabs .internet_item {
+  padding: 0;
+}
+#tabs .internet_item a{
+  padding: 45px 10px;
+  display: block;
+}
 .internet_item a i{
   font-size: 4em !important;
 }

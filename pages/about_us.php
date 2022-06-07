@@ -39,24 +39,10 @@
             width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
             tabindex="0"></iframe>
 </div>
-<footer>
-    <div class="container-fluid">
-        <div class="row">
-            <div id="footer_top">
-                <p>093 028004 | 095 028004</p>
-                <p><i class="fas fa-map-marker-alt"></i> Արագածոտնի մարզ, ք. Աշտարակ, Տիգրան Մեծի 30</p>
-                <p>
-                    <i class="far fa-envelope"></i> Kiberinternet@mail.ru
-                </p>
-            </div>
-            <div id="footer_bottom">
-                <img src="../img/footer_logo.png" id='footer_logo' alt="footer_logo">
-                <p>Բոլոր իրավունքները պաշտպանված են: <i class="far fa-registered"></i>. COPYRIGHT "KIBERNET" <i
-                            class="far fa-copyright"></i>. 2020</p>
-            </div>
-        </div>
-    </div>
-</footer>
+
+<!-- Footer -->
+<?php include "includes/footer.php"; ?>
+
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
