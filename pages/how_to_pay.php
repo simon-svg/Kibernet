@@ -18,8 +18,8 @@
 <article id='how_to_pay'>
     <div class="how_to_pay-cont">
         <h3>ԻՆՉՊԵ՞Ս ՎՃԱՐԵԼ</h3>
-        <p>Ընկերության վճարումները կարող եք կատարել "Հայփոստի" մասնաճյուղերում, "EASYPAY" հավելվածով և "MOBIDRAM"-ի Վճարման
-            տերմինալներով:</p>
+        <p>Ընկերության վճարումները կարող եք կատարել "Հայփոստի" մասնաճյուղերում, "EASYPAY" հավելվածով "MOBIDRAM"-ի Վճարման
+            տերմինալներով կամ "FASTSHIFT"-ի օգնությմբ:</p>
         <div class="pay_method_box">
             <div class="art_item pay_method">
                 <img src="../img/easyPay.svg" alt="easyPay_logo">
@@ -29,6 +29,9 @@
             </div>
             <div class="art_item pay_method">
                 <img src="../img/mobidram.png" alt="mobidram">
+            </div>
+            <div class="art_item pay_method">
+                <img src="../img/fastshift.png" alt="fastshift">
             </div>
         </div>
     </div>
