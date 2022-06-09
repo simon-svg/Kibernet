@@ -60,7 +60,7 @@
         </div>
         <div class="art_item art_item_package hover-yellow">
             <a href="#a">
-                <h3>ՄԵԱԳ ԵՎ ՍՄԱՐԹ TV box</h3>
+                <h3>ՄԵԳԱ ԵՎ ՍՄԱՐԹ TV box</h3>
                 <span>8500֏</span>
                 <p>100մբ/վ</p>
                 <span class="art_item_star yellow">**</span>

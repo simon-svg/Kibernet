@@ -27,7 +27,7 @@
                 <img src="../img/haypost_grey.png" alt="haypost_logo">
             </div>
             <div class="art_item pay_method">
-                <img src="../img/mobidram.png" alt="mobidram">
+                <img src="../img/mob_idram.png" alt="mobidram">
             </div>
             <div class="art_item pay_method">
                 <img src="../img/fastshift.png" alt="fastshift">

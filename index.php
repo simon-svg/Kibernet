@@ -83,6 +83,89 @@
             <p>100մբ/վ</p>
         </a>
     </div>
+    <div class="items-cont items-cont-first">
+        <div class="art_item art_item_package hover-red">
+            <a href="#">
+                <h3>ԱՏԱՆԴԱՐՏ ԵՎ ՍՄԱՐԹ TV</h3>
+                <span>6000֏</span>
+                <p>60մբ/վ</p>
+                <span class="art_item_star red">*</span>
+            </a>
+        </div>
+        <div class="art_item art_item_package hover-red">
+            <a href="#">
+                <h3>ՍՏԱՆԴԱՐՏ+ ԵՎ ՍՄԱՐԹ TV</h3>
+                <span>7000֏</span>
+                <p>80մբ/վ</p>
+                <span class="art_item_star red">*</span>
+            </a>
+        </div>
+        <div class="art_item art_item_package hover-red">
+            <a href="#">
+                <h3>ՄԵԳԱ ԵՎ ՍՄԱՐԹ TV</h3>
+                <span>8000֏</span>
+                <p>100մբ/վ</p>
+                <span class="art_item_star red">*</span>
+            </a>
+        </div>
+
+        <div class="art_item art_item_package hover-yellow">
+            <a href="#">
+                <h3>ՍՏԱՆԴԱՐՏ ԵՎ ՍՄԱՐԹ TV box</h3>
+                <span>6500֏</span>
+                <p>60մբ/վ</p>
+                <span class="art_item_star yellow">**</span>
+            </a>
+        </div>
+        <div class="art_item art_item_package hover-yellow">
+            <a href="#a">
+                <h3>ՍՏԱՆԴԱՐՏ+ ԵՎ ՍՄԱՐԹ TV box</h3>
+                <span>7500֏</span>
+                <p>80մբ/վ</p>
+                <span class="art_item_star yellow">**</span>
+            </a>
+        </div>
+        <div class="art_item art_item_package hover-yellow">
+            <a href="#a">
+                <h3>ՄԵԳԱ ԵՎ ՍՄԱՐԹ TV box</h3>
+                <span>8500֏</span>
+                <p>100մբ/վ</p>
+                <span class="art_item_star yellow">**</span>
+            </a>
+        </div>
+
+        <div class="art_item art_item_package hover-blue">
+            <a href="#a">
+                <h3>ՍՏԱՆԴԱՐՏ ԵՎ ՍՄԱՐԹ Android TV box</h3>
+                <span>7500֏</span>
+                <p>60մբ/վ</p>
+                <span class="art_item_star blue">***</span>
+            </a>
+        </div>
+        <div class="art_item art_item_package hover-blue">
+            <a href="#a">
+                <h3>ՍՏԱՆԴԱՐՏ+ ԵՎ ՍՄԱՐԹ Android TV box</h3>
+                <span>8500֏</span>
+                <p>80մբ/վ</p>
+                <span class="art_item_star blue">***</span>
+            </a>
+        </div>
+        <div class="art_item art_item_package hover-blue">
+            <a href="#a">
+                <h3>ՄԵԳԱ ԵՎ ՍՄԱՐԹ Android TV box</h3>
+                <span>9500֏</span>
+                <p>100մբ/վ</p>
+                <span class="art_item_star blue">***</span>
+            </a>
+        </div>
+    </div>
+    <div class="items-info-cont">
+        <h4 class="items-info"><span class="red">*</span> ՍՄԱՐԹ IP-TV, Catch-Up, Android TV առկայության դեպքում</h4>
+        <h4 class="items-info"><span class="yellow">**</span> ՍՄԱՐԹ IP-TV, Catch-Up</h4>
+        <h4 class="items-info"><span class="blue">***</span> ՍՄԱՐԹ IP-TV, Catch-Up, Android TV, YouTube</h4>
+    </div>
+
+
     <div id="business_info">
         <h3>ԲԻԶՆԵՍԻ ՀԱՄԱՐ</h3>
         <p>
@@ -181,6 +264,7 @@
     $('.price_heading').css('color', 'rgb(95,95,95)');
     $('.price_body').hide();
     $('#gift_info').hide();
+    $('.items-info-cont').hide();
 
     $('#home').click(function () {
         $('#home').hide();
@@ -190,6 +274,7 @@
         $('.break-column').show();
         $('.price_heading').show();
         $('.price_body').show();
+        $('.items-info-cont').show();
     });
 
     $('#home_internet').click(function () {
@@ -201,6 +286,7 @@
         $('.break-column').show();
         $('.price_heading').show();
         $('.price_body').show();
+        $('.items-info-cont').hide();
     });
 
 
@@ -214,6 +300,7 @@
         $('.price_heading').hide();
         $('.price_body').hide();
         $('#gift_info').hide();
+        $('.items-info-cont').hide();
     });
     $('#gift').click(function () {
         $('#home').hide();
@@ -222,6 +309,7 @@
         $('#gift_info').show();
         $('.break-column').show();
         $('.art_item_home').hide();
+        $('.items-info-cont').hide();
     });
 
     $('.break-column').click(function () {
@@ -235,6 +323,7 @@
         $('.price_body').hide();
         $('#gift_info').hide();
         $('.art_item_home').show();
+        $('.items-info-cont').hide();
     });
 
     $('#business').click(function () {
@@ -245,6 +334,7 @@
         $('#business_info').show();
         $('.break-column').show();
         $('.art_item_home').hide();
+        $('.items-info-cont').hide();
     });
     $('#business_internet').click(function () {
         $('#home').hide();
@@ -254,10 +344,9 @@
         $('.price_heading').hide();
         $('.price_body').hide();
         $('#gift_info').hide();
-
         $('#business_info').show();
         $('.break-column').show();
-
+        $('.items-info-cont').hide();
     });
     $('#special_gift').click(function () {
         $('#home').hide();
@@ -267,9 +356,9 @@
         $('.items-cont').hide();
         $('.price_heading').hide();
         $('.price_body').hide();
-
         $('#gift_info').show();
         $('.break-column').show();
+        $('.items-info-cont').hide();
     });
 </script>
 </body>
